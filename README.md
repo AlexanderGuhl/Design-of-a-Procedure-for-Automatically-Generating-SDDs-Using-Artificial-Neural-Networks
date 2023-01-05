@@ -14,7 +14,7 @@ to its provenance.
 By letting the Tool-Center-Point of the robot follow a distinct movement path the generated sensor signals
 are unique and mostly comparable for similiar robots. Therefore the CNN can identify uniqe signal patterns and
 assign the signal to its component of provenance. At last a subquent module transforms the CNNs classification to a
-SDD for the device. The SDD is displayed in XML or Text format. The approach is evaluated on two industrial robots. 
+SDD for the device. The SDD is displayed in XML or Text format. The neural network approach is evaluated on two real industrial robots, while the movement path is evaluated on three real industrial robots and a simulated one. 
 
 ## Requirements
 Requirements for a conda enviroment are saved in `automatic_sdd_bachelor.yml`.
@@ -78,7 +78,7 @@ Special thanks to Univ.-Prof. Dr.-Ing Christian Kreischer, M.Sc. Christopher Kli
 Alexander Guhl, student mechanical engineering
 
 ## Project status
-Ongoing
+Finished
 
 ## LICENSE
 Licensed under the Apache License, Version 2.0 (the "License"); you may not use it except in compliance with the License. A copy of the License is included in the project, see the file LICENSE.**
