@@ -1,0 +1,97 @@
+{
+    "0": {
+        "EXPERIMENT_ID": 0,
+        "DATA_DIR": [
+            "I:/BA/Code/datasets/ur10_MTL_var_1.csv"
+        ],
+        "LOG_DIR": "I:/BA/Code/logs",
+        "MAN_SEED": 1,
+        "BATCH_SIZE": 102,
+        "NUM_WORKERS": 1,
+        "LEARNING_RATE": 0.0001,
+        "MODEL": "OCT_MULTI",
+        "SAMPLE_SIZE": 4000,
+        "MAX_EPOCHS": 100,
+        "ACTIVATION_FUNCTION": "ReLU",
+        "ALPHA": 0.75,
+        "MAXPOOL_KERNEL": 25,
+        "KERNEL_FACTOR": 0.1,
+        "SCHEDULE": "False"
+    },
+    "1": {
+        "EXPERIMENT_ID": 1,
+        "DATA_DIR": [
+            "I:/BA/Code/datasets/ur10_MTL_var_1.csv"
+        ],
+        "LOG_DIR": "I:/BA/Code/logs",
+        "MAN_SEED": 2,
+        "BATCH_SIZE": 102,
+        "NUM_WORKERS": 1,
+        "LEARNING_RATE": 0.0001,
+        "MODEL": "OCT_MULTI",
+        "SAMPLE_SIZE": 4000,
+        "MAX_EPOCHS": 100,
+        "ACTIVATION_FUNCTION": "ReLU",
+        "ALPHA": 0.75,
+        "MAXPOOL_KERNEL": 25,
+        "KERNEL_FACTOR": 0.1,
+        "SCHEDULE": "False"
+    },
+    "2": {
+        "EXPERIMENT_ID": 2,
+        "DATA_DIR": [
+            "I:/BA/Code/datasets/ur10_MTL_var_1.csv"
+        ],
+        "LOG_DIR": "I:/BA/Code/logs",
+        "MAN_SEED": 3,
+        "BATCH_SIZE": 102,
+        "NUM_WORKERS": 1,
+        "LEARNING_RATE": 0.0001,
+        "MODEL": "OCT_MULTI",
+        "SAMPLE_SIZE": 4000,
+        "MAX_EPOCHS": 100,
+        "ACTIVATION_FUNCTION": "ReLU",
+        "ALPHA": 0.75,
+        "MAXPOOL_KERNEL": 25,
+        "KERNEL_FACTOR": 0.1,
+        "SCHEDULE": "False"
+    },
+    "3": {
+        "EXPERIMENT_ID": 3,
+        "DATA_DIR": [
+            "I:/BA/Code/datasets/ur10_MTL_var_1.csv"
+        ],
+        "LOG_DIR": "I:/BA/Code/logs",
+        "MAN_SEED": 4,
+        "BATCH_SIZE": 102,
+        "NUM_WORKERS": 1,
+        "LEARNING_RATE": 0.0001,
+        "MODEL": "OCT_MULTI",
+        "SAMPLE_SIZE": 4000,
+        "MAX_EPOCHS": 100,
+        "ACTIVATION_FUNCTION": "ReLU",
+        "ALPHA": 0.75,
+        "MAXPOOL_KERNEL": 25,
+        "KERNEL_FACTOR": 0.1,
+        "SCHEDULE": "False"
+    },
+    "4": {
+        "EXPERIMENT_ID": 4,
+        "DATA_DIR": [
+            "I:/BA/Code/datasets/ur10_MTL_var_1.csv"
+        ],
+        "LOG_DIR": "I:/BA/Code/logs",
+        "MAN_SEED": 42,
+        "BATCH_SIZE": 102,
+        "NUM_WORKERS": 1,
+        "LEARNING_RATE": 0.0001,
+        "MODEL": "OCT_MULTI",
+        "SAMPLE_SIZE": 4000,
+        "MAX_EPOCHS": 100,
+        "ACTIVATION_FUNCTION": "ReLU",
+        "ALPHA": 0.75,
+        "MAXPOOL_KERNEL": 25,
+        "KERNEL_FACTOR": 0.1,
+        "SCHEDULE": "False"
+    }
+}

@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<robot  name="UR10" >
+ <robot_sockets  main_voltage="1"  momentum="4"  robot_voltage="2"  robot_current="3" />
+ <vendor_name  Vendor_Name="Universal Robots" />
+ <model_name  Model_Name="UR10 - eSeries" />
+ <ident_number  Ident_Number="0x02c6" />
+ <link  name="link 1" />
+ <link  name="link 2" />
+ <link  name="link 3" />
+ <link  name="link 4" />
+ <link  name="link 5" />
+ <link  name="link 6" />
+ <joint  name="Joint1"  type="continuous" >
+  <parent  link="link 1" />
+  <child  link="link 2" />
+  <origin  xyz="5 3 1"  rpy="0 0 0" />
+  <j_sockets  speed="12"  angle="6"  temperature="Temp Joint 1"  voltage="49"  accel="0"  current="18" />
+ </joint>
+ <joint  name="Joint2"  type="continuous" >
+  <parent  link="link 2" />
+  <child  link="link 3" />
+  <origin  xyz="5 3 1"  rpy="0 0 0" />
+  <j_sockets  speed="13"  angle="7"  temperature="Temp Joint 2"  voltage="50"  accel="0"  current="18" />
+ </joint>
+ <joint  name="Joint3"  type="continuous" >
+  <parent  link="link 3" />
+  <child  link="link 4" />
+  <origin  xyz="5 3 1"  rpy="0 0 0" />
+  <j_sockets  speed="14"  angle="8"  temperature="Temp Joint 3"  voltage="51"  accel="0"  current="18" />
+ </joint>
+ <joint  name="Joint4"  type="continuous" >
+  <parent  link="link 4" />
+  <child  link="link 5" />
+  <origin  xyz="5 3 1"  rpy="0 0 0" />
+  <j_sockets  speed="15"  angle="9"  temperature="Temp Joint 4"  voltage="52"  accel="0"  current="18" />
+ </joint>
+ <joint  name="Joint5"  type="continuous" >
+  <parent  link="link 5" />
+  <child  link="link 6" />
+  <origin  xyz="5 3 1"  rpy="0 0 0" />
+  <j_sockets  speed="16"  angle="10"  temperature="Temp Joint 5"  voltage="53"  accel="0"  current="18" />
+ </joint>
+</robot>

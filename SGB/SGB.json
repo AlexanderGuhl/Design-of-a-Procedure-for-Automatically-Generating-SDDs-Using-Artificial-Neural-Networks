@@ -1,0 +1,83 @@
+{
+    "robot": [
+        "test_robot",
+        {
+            "link 1": [
+                {
+                    "Joint1": [
+                        "continuous",
+                        {
+                            "@xyz": "5 3 1",
+                            "@rpy": "0 0 0"
+                        },
+                        {
+                            "@force": "3",
+                            "@current": "2",
+                            "@speed": "5",
+                            "@voltage": "1",
+                            "@angle": "4"
+                        }
+                    ]
+                },
+                {
+                    "link 2": [
+                        {
+                            "Joint2": [
+                                "continuous",
+                                {
+                                    "@xyz": "5 3 1",
+                                    "@rpy": "0 0 0"
+                                },
+                                {
+                                    "@force": "8",
+                                    "@current": "7",
+                                    "@speed": "10",
+                                    "@voltage": "6",
+                                    "@angle": "9"
+                                }
+                            ]
+                        },
+                        {
+                            "link 3": [
+                                {
+                                    "Joint3": [
+                                        "continuous",
+                                        {
+                                            "@xyz": "5 3 1",
+                                            "@rpy": "0 0 0"
+                                        },
+                                        {
+                                            "@force": "13",
+                                            "@current": "12",
+                                            "@speed": "15",
+                                            "@voltage": "11",
+                                            "@angle": "14"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "link 4": {
+                                        "Joint4": [
+                                            "continuous",
+                                            {
+                                                "@xyz": "5 3 1",
+                                                "@rpy": "0 0 0"
+                                            },
+                                            {
+                                                "@force": "13",
+                                                "@current": "12",
+                                                "@speed": "15",
+                                                "@voltage": "11",
+                                                "@angle": "14"
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
